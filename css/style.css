@@ -1,0 +1,61 @@
+body {
+    background-color: #14131A;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 80px;
+}
+
+.logo-link {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.nav-menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu-item {
+    margin-right: 30px;
+}
+
+.nav-menu-link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Section */
+.date {
+    display: block;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 38px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.hero-description {
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 423px;
+}
